@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+    <script src="app.js"></script>
+</head>
+<body>
+
+    <h1>Welcome to ATM</h1>
+    <p>Kindly input your amount between 100 to 100000</p>
+    <input type="number" id="amount">
+    
+    
+    <label for="cars">Choose a preference note:</label>
+<select id="selectPreference" >
+  <option value="500">500</option>
+  <option value="100">100</option>
+  <option value="50">50</option>
+  <option value="20">20</option>
+  <option value="10">10</option>
+  <option value="5">5</option>
+  <option value="1">1</option>
+</select>
+<button  onclick="withdraw()">withdraw</button>
+
+<h1>Result</h1>
+<p>Calculated amount are as</p>
+<ul id="amountList">
+</ul>
+
+</body>
+</html>
